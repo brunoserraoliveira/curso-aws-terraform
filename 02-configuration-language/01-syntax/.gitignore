@@ -1,0 +1,12 @@
+# Diretório de configuração local do Terraform
+.terraform/
+
+# Arquivos de estado do Terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+# Arquivos de variáveis sensíveis
+*.tfvars
+
+# Planos de execução do Terraform
+*.tfplan
